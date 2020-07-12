@@ -1,0 +1,1 @@
+xdg-open https://hide.me/en/proxy
