@@ -1,2 +1,2 @@
 # PieceOfCake
-Scripts that simplify your tasks in Linux, Windows and macOS
+Scripts that simplify your tasks in Linux
