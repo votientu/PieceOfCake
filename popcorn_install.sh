@@ -18,6 +18,7 @@ sudo ln -sf /opt/popcorntime/Popcorn-Time /usr/bin/Popcorn-Time
 
 # Create desktop launcher for Popcorn Time
 sudo touch /usr/share/applications/popcorntime.desktop
+
 sudo bash -c 'echo "[Desktop Entry]
 Version = 1.0
 Type = Application
@@ -27,4 +28,5 @@ Exec = /usr/bin/Popcorn-Time
 Icon = /opt/popcorntime/popcorn.png
 Categories = Application;" > /usr/share/applications/popcorntime.desktop'
 
-
+#  Download a Popcorn Time icon and save it as popcorn.png in /opt/popcorntime directory
+sudo wget -O /opt/popcorntime/popcorn.png https://upload.wikimedia.org/wikipedia/commons/d/df/Pctlogo.png
