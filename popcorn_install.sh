@@ -18,7 +18,7 @@ sudo ln -sf /opt/popcorntime/Popcorn-Time /usr/bin/Popcorn-Time
 
 # Create desktop launcher for Popcorn Time
 sudo touch /usr/share/applications/popcorntime.desktop
-
+                                                      
 sudo bash -c 'echo "[Desktop Entry]
 Version = 1.0
 Type = Application
